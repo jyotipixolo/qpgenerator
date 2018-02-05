@@ -16,8 +16,7 @@ var paths = {
 gulp.task("serve:before", ['watch']);
 
 gulp.task('default', ['sass', 'autoprefix','processes','watch'], function () { 
-  console.log('I am gulp'); 
-  gulp.watch(paths.sass, ['processes']);
+
 });
 
 gulp.task('sass', function (done) {
